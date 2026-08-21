@@ -18,7 +18,8 @@ test("renders the booking journey content", async () => {
   assert.match(html, /Соберите запрос за минуту/);
   assert.match(html, /https:\/\/wa\.me\/79184505226/);
   assert.match(html, /\/photos\/object-02\.png/);
-  assert.match(html, /openstreetmap\.org\/export\/embed\.html/);
+  assert.match(html, /yandex\.ru\/map-widget\/v1/);
+  assert.match(html, /Карта Яндекса/);
   assert.match(html, /Наличие и окончательная стоимость подтверждаются владельцем/);
   assert.match(html, /Размещение с домашними животными не предусмотрено/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/i);
