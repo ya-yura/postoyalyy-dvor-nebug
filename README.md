@@ -34,4 +34,6 @@ npm run lint
 
 ## Публикация
 
-Репозиторий и живое демо добавляются после создания GitHub-репозитория и завершения workflow GitHub Pages.
+- Репозиторий: https://github.com/ya-yura/postoyalyy-dvor-nebug
+- Живое демо: https://ya-yura.github.io/postoyalyy-dvor-nebug/
+- Публикация выполняется workflow GitHub Actions `Deploy to GitHub Pages`.
