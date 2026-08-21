@@ -30,7 +30,7 @@ await cp(clientRoot, pagesRoot, { recursive: true, force: true });
 
 const rootPrefix = basePath.endsWith("/") ? basePath : `${basePath}/`;
 const html = await response.text();
-const scopedHtml = html.replace(/(["'(])\/(_next|favicon\.svg|file\.svg|globe\.svg|window\.svg)/g, `$1${rootPrefix}$2`);
+const scopedHtml = html.replace(/(["'(])\/(photos|_next|favicon\.svg|file\.svg|globe\.svg|window\.svg)/g, `$1${rootPrefix}$2`);
 await writeFile(path.join(pagesRoot, "index.html"), scopedHtml, "utf8");
 
 console.log(`GitHub Pages artifact exported to ${pagesRoot}`);

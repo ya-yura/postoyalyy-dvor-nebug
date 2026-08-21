@@ -29,6 +29,14 @@ export const siteConfig = {
     { title: "Стиральная машина", detail: "Доступна на территории" },
     { title: "Рядом кафе и магазины", detail: "Всё необходимое недалеко" },
   ],
+  photos: [
+    { src: "/photos/object-02.png", alt: "Зелёный двор и входы в номера", title: "Зелёный двор" },
+    { src: "/photos/object-01.png", alt: "Номер с двумя кроватями", title: "Один из номеров" },
+    { src: "/photos/object-07.png", alt: "Цветущий сад на территории", title: "Сад" },
+    { src: "/photos/object-04.png", alt: "Автомобили на парковке", title: "Парковка" },
+    { src: "/photos/object-05.png", alt: "Зона со стиральной машиной под навесом", title: "Бытовая зона" },
+    { src: "/photos/object-06.png", alt: "Домик среди зелени", title: "Территория" },
+  ],
   seasonPeriods: [
     { label: "1–10 июня", from: "2026-06-01", to: "2026-06-10", prices: { three: 3000, "four-balcony": 1800, four: 3500 } },
     { label: "11–20 июня", from: "2026-06-11", to: "2026-06-20", prices: { three: 3500, "four-balcony": 2100, four: 4000 } },
